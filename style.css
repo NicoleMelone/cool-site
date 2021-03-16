@@ -1,0 +1,61 @@
+:root {
+    --primary:  rgb(32, 32, 196);
+}
+
+header {
+    background-color: var(--primary);
+    color: antiquewhite;
+    padding: 1rem;
+    text-align: center;
+}
+
+body {
+    font-size: 16pt;
+}
+
+h2 {
+    text-align: center;
+    border-width: 20vh;
+    border-top: 15px solid cornflowerblue;
+}
+
+h3 {
+    margin: 0;
+    font-size: 12pt;
+}
+
+article {
+    margin-left: 30vw;
+    margin-right: 10vw;
+    font-size: 13pt;
+}
+
+aside{
+    padding-top: 5vh;
+}
+
+.side {
+    font-size: 10pt;
+}
+
+
+.padding {
+padding: 1rem
+
+}
+
+
+
+.d-flex {
+    display: flex;
+}
+
+footer {
+background-color: var(--primary);
+height: 10vh;
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+
+
